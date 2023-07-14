@@ -584,17 +584,28 @@
 // Домашняя задача 25: Напишите цыкл который принимает на вход два числа (А,Б) 
 // и возводит число A в натуральную степень B.
 
-Console.Write("Ввидите число a: ");
-int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Ввидите число a: ");
+// int a = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Ввидите число b: ");
-int b = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Ввидите число b: ");
+// int b = Convert.ToInt32(Console.ReadLine());
 
-int result = 1;
-for (int i = 0; i < b; i++)
-{
-    result *= a;
-}
+// int result = 1;
+// for (int i = 0; i < b; i++)
+// {
+//     result *= a;
+// }
+// Console.Write("Результат: " + result);
+// System.Console.WriteLine();
 
-Console.Write("Результат: " + result);
-System.Console.WriteLine();
+// второй способ намного лучше!!!!
+// Console.Write("Ввидите число a: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Ввидите число b: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+
+// double result=Math.Pow(a,b); 
+
+// Console.Write("Результат: " + result);
+// System.Console.WriteLine();
