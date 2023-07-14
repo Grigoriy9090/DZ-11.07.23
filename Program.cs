@@ -429,3 +429,172 @@
 //         }
 //     }
 // }
+
+// Задача 24: Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.
+// 7 -> 28
+// 4 -> 10
+// 8 -> 36
+
+// Задача 24: Напишите программу, которая принимает на 
+// вход число (А) и выдаёт сумму чисел от 1 до А.
+// 7 -> 28
+// 4 -> 10
+// 8 -> 36
+
+// тип возвращающего значения + Название +()+{ }
+
+// Задача 24: Напишите программу, которая принимает на 
+// вход число (А) и выдаёт сумму чисел от 1 до А.
+// 7 -> 28
+// 4 -> 10
+// 8 -> 36
+
+// тип возвращающего значения + Название +()+{ }
+
+// Console.WriteLine("Введите число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int GetSumNumber()
+// {
+    // int sum=0;
+    // int count=1;
+
+    // while(number>=count)
+    // {
+    //     sum=sum + count;
+    //     count=count+1;
+    // }
+//     int sum =0;
+
+//     for (int i = 0; i <= number; i++)
+//     {    
+//         sum=sum + i;
+//     }
+
+//     return sum;
+// }
+
+// int result=GetSumNumber();
+// Console.WriteLine(result);
+
+// Задача 26: Напишите программу, которая принимает
+//  на вход число и выдаёт количество цифр в числе.
+// 456 -> 3
+// 78 -> 2
+// 89126 -> 5
+
+
+// тип возвращающего значения + Название +()+{ }
+
+// Console.WriteLine("Введите число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int GetCountNumber()
+// {
+//     int count=0;
+
+//     while(number>0)
+//     {
+//         number= number/10;
+//         count=count+1;
+//     }
+    
+//     return count;
+// }
+
+// Console.WriteLine(GetCountNumber());
+
+// Задача 28: Напишите программу, которая принимает 
+// на вход число N и выдаёт произведение чисел от 1 до N.
+// 4 -> 24 
+// 5 -> 120
+
+// тип возвращающего значения + Название +()+{ }
+
+// Console.WriteLine("Введите число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int GetCountNumber()
+// {
+//     int result=1;
+
+//     for (int i = 1; i <= number; i++)
+//     {
+//         result= result*i;
+//     }
+    
+//     return result;
+// }
+
+// Console.WriteLine(GetCountNumber());
+
+// Задача 30: Напишите программу, которая выводит 
+// массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
+// [1,0,1,1,0,1,0,0]
+
+// тип возвращающего значения + Название +()+{ }
+// int arrayLength =8;
+
+// int[] array= new int[arrayLength];
+
+// GetRandomArray();
+
+// void GetRandomArray()
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         array[i]= new Random().Next(0,2);
+//         Console.Write(array[i]+" ");
+//     }
+// }
+
+// Домашняя задача 29: Напишите программу которая задает массив из 8 элементов, и выводит их на экран
+
+// int arrayLength =8;
+// int[] array= new int[arrayLength];
+// Console.Write("Массив из случайных цифр: ");
+// for (int i = 0; i < arrayLength; i++)
+// {
+//     array[i] = new Random().Next(0,arrayLength);
+//     Console.Write(array[i]+" ");
+// }
+// System.Console.WriteLine();
+// System.Console.WriteLine();
+
+//Домашнее задание 27: Напишите прогрмамму которая принимает на вход число, и выдает сумму цыфр в числе.
+
+// Console.Write("Введите любое число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int sum = GetSumOfDigits(number);
+// Console.WriteLine("Сумма цифр в числе: " + sum);
+
+// int GetSumOfDigits(int number)
+// {
+// int sum = 0;
+// while (number != 0)
+// {
+//     int digit = number % 10;
+//     sum += digit;
+//     number /= 10;
+// }
+// return sum;
+// }
+
+// Домашняя задача 25: Напишите цыкл который принимает на вход два числа (А,Б) 
+// и возводит число A в натуральную степень B.
+
+Console.Write("Ввидите число a: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Ввидите число b: ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+int result = 1;
+for (int i = 0; i < b; i++)
+{
+    result *= a;
+}
+
+Console.Write("Результат: " + result);
+System.Console.WriteLine();
