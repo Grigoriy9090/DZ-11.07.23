@@ -595,17 +595,18 @@
 // {
 //     result *= a;
 // }
+
 // Console.Write("Результат: " + result);
 // System.Console.WriteLine();
 
 // второй способ намного лучше!!!!
-// Console.Write("Ввидите число a: ");
-// int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Ввидите число a: ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-// Console.Write("Ввидите число b: ");
-// int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Ввидите число b: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-// double result=Math.Pow(a,b); 
+double result=Math.Pow(a,b); 
 
-// Console.Write("Результат: " + result);
-// System.Console.WriteLine();
+Console.Write("Результат: " + result);
+System.Console.WriteLine();
